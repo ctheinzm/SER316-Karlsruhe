@@ -1,0 +1,12 @@
+language: java
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    - false
+
+install: true
+script: ant package
